@@ -11,7 +11,7 @@ class TestWebsocket(object):
         socket = BitMEXWebsocket()
 
         assert socket.gen_url() == \
-            'wss://www.bitmex.com/realtime?heartbeat=true'
+            'wss://testnet.bitmex.com/realtime?heartbeat=true'
 
     def test_subscribe_to_channel(self, mocker):
         socket = BitMEXWebsocket()
