@@ -7,6 +7,7 @@
 
 # Packages
 *.egg
+*.eggs
 *.egg-info
 dist
 build
@@ -48,3 +49,4 @@ __pycache__
 dotfiles
 .pypirc
 *.dist-info
+venv
